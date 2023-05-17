@@ -148,5 +148,11 @@
            <build>
            </build>
        </profile>
+       <profile>
+        <id>targetDir</id>
+        <build>
+            <directory>${project.basedir}/target</directory>
+        </build>
+    </profile>
     </profiles>
 </project>
